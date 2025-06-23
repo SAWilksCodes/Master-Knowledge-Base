@@ -1,0 +1,87 @@
+# Core Python packages
+numpy>=1.21.0
+pandas>=1.3.0
+scipy>=1.7.0
+
+# Data processing and analysis
+scikit-learn>=1.0.0
+nltk>=3.6.0
+textblob>=0.15.3
+
+# Natural Language Processing
+spacy>=3.4.0
+transformers>=4.20.0
+sentence-transformers>=2.2.0
+
+# Vector database and embeddings
+chromadb>=0.4.0
+faiss-cpu>=1.7.0
+
+# Visualization
+matplotlib>=3.5.0
+seaborn>=0.11.0
+plotly>=5.0.0
+networkx>=2.6.0
+wordcloud>=1.8.0
+
+# Machine learning and dimensionality reduction
+umap-learn>=0.5.0
+tsne-learn>=0.1.0
+
+# Audio processing (for multimodal alignment)
+librosa>=0.9.0
+soundfile>=0.10.0
+whisper>=1.0.0
+
+# Image processing (for multimodal alignment)
+opencv-python>=4.5.0
+Pillow>=8.3.0
+
+# Deep learning
+torch>=1.12.0
+torchvision>=0.13.0
+
+# Web framework (for API/GUI)
+fastapi>=0.78.0
+uvicorn>=0.17.0
+gradio>=3.0.0
+
+# Data serialization and storage
+pydantic>=1.9.0
+sqlalchemy>=1.4.0
+alembic>=1.8.0
+
+# Utilities
+tqdm>=4.64.0
+click>=8.1.0
+python-dotenv>=0.19.0
+pyyaml>=6.0
+jsonschema>=4.0.0
+
+# Development and testing
+pytest>=7.0.0
+black>=22.0.0
+flake8>=4.0.0
+mypy>=0.950
+
+# Optional: GPU support (uncomment if using CUDA)
+# torch>=1.12.0+cu113 -f https://download.pytorch.org/whl/torch_stable.html
+# faiss-gpu>=1.7.0
+
+# Optional: Advanced audio processing
+# pydub>=0.25.0
+# pyaudio>=0.2.11
+
+# Optional: Advanced image processing
+# imageio>=2.19.0
+# scikit-image>=0.19.0
+
+# Optional: Database support
+# psycopg2-binary>=2.9.0  # PostgreSQL
+# pymongo>=4.0.0          # MongoDB
+# redis>=4.0.0            # Redis
+
+# Optional: Cloud storage
+# boto3>=1.24.0           # AWS
+# google-cloud-storage>=2.0.0  # Google Cloud
+# azure-storage-blob>=12.0.0   # Azure
